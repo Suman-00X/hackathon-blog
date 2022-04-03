@@ -1,0 +1,691 @@
+
+html, body
+{
+	height: 100%;
+	
+}
+
+body
+{
+	margin: 5px;
+	padding: 2px;
+	background: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15pt;
+	font-weight:bold;
+	color:#000
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 900;
+	color:#000;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 150%;
+}
+
+
+
+a
+{
+	color: #050505;
+	
+}
+
+a:hover
+{
+	text-decoration:#1B9772;
+}
+
+.container
+{
+	
+	width: 100%;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+{
+	margin: 0;
+	padding: 0em 0em 0em 0em;
+	overflow: hidden;
+	list-style: none;
+	color: #6c6c6c
+}
+
+ul.style1 li
+{
+	overflow: hidden;
+	display: block;
+	padding: 0em 0em;
+	border-top: 0px solid white;
+}
+
+ul.style1 li:first-child
+{
+	padding-top: 0;
+	border-top: none;
+}
+
+ul.style1 .image-left
+{
+	margin-bottom: 0;
+}
+
+ul.style1 h3
+{
+	padding: 0em 0em 1em 0em;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 600;
+	color: white;
+}
+
+ul.style1 a
+{
+	text-decoration: none;
+	color:white;
+}
+
+ul.style1 a:hover
+{
+	text-decoration: underline;
+	color: white;
+}
+
+ul.style2
+{
+	margin: 0;
+	padding-top: 0em;
+	list-style: none;
+}
+
+ul.style2 li
+{
+	border-top: solid 1px #E5E5E5;
+	padding: 0.80em 0 0em 0;
+	font-family: 0.80em;
+}
+
+ul.style2 li:before
+{
+	display: inline-block;
+	padding: 0px;
+	background: #DB3256;
+}
+
+ul.style2 a
+{
+	display: inline-block;
+	margin-left: 1em;
+}
+
+ul.style2 li:first-child
+{
+	border-top: 0;
+	padding-top: 0;
+}
+
+ul.style2 .icon
+{
+	color: #FFF;
+}
+
+ul.style3
+{
+	margin: 0;
+	padding-top: 1em;
+	list-style: none;
+}
+
+ul.style3 li
+{
+	border-top: solid 1px white;
+	padding: 1em 0 1em 0;
+	font-family: 0.80em;
+}
+
+ul.style3 li:before
+{
+	display: inline-block;
+	padding: 0px;
+	background: #FFF;
+}
+
+ul.style3 a
+{
+	display: inline-block;
+	margin-left: 1em;
+	font-size: 1em !important;
+	color: #FFF;
+}
+
+ul.style3 li:first-child
+{
+	border-top: 0;
+	padding-top: 0;
+}
+
+ul.style3 .icon
+{
+	color: #DB3256;
+}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+{
+	margin-bottom: 3em;
+}
+
+
+
+
+.title h2
+{
+	font-weight: 800;
+	font-size: 2.8em;
+	color: black;
+}
+
+.title .byline
+{
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #6F6F6F;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	
+#header-wrapper
+{
+	padding: 0em 0em;
+	background: #FFF;
+}
+
+#header
+{
+	position: relative;
+	height: 100px;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+	position: absolute;
+	top: 0em;
+	left: 0px;
+	width: 100%;
+}
+
+#logo h1
+{
+	display: inline-block;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #197d62;
+	padding-top: 18px;
+	
+}
+
+#logo span
+{
+	position: absolute;
+	top: 7em;
+	display: inline-block;
+	padding-left: 0em;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 0.90em;
+
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #197d62;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+	position: absolute;
+	right: 0;
+	top: 1em;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+}
+
+#menu li a, #menu li span
+{
+	display: inline-block;
+	margin-left: 1px;
+	padding: 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: #212121;
+}
+
+
+#menu li.current_page_item a
+{
+	background: #197d62;
+	color: #FFF !important;
+}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+	
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#wrapper
+{
+	background: #FFF;
+}
+
+#page
+{
+	overflow: hidden;
+	padding: 6em 0em;
+	border-bottom: 2px solid #E3E3E3;
+	text-align: center;
+}
+
+#page .button
+{
+	margin-top: 2em;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+#content
+{
+	padding: 0em 7em;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+/* 
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+	overflow: hidden;
+	padding: 5em 0em;
+	border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: rgba(255,255,255,0.3);
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+#featured-wrapper
+{
+	overflow: hidden;
+	padding: 2em 0em;
+	background:#197d62;
+	text-align: center;
+}
+
+#featured
+{
+	overflow:auto;
+}
+
+#featured .major
+{
+	overflow: hidden;
+	margin-bottom: 3em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+#featured .major h2
+{
+	font-size: 3em;
+}
+
+#featured .major .byline
+{
+	font-size: 1.3em;
+}
+
+#featured .title
+{
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+#featured .title h2
+{
+	font-size: 1.2em;
+}
+
+#featured h2
+{
+	text-align: center;
+	color: #FFF;
+}
+
+
+.column1,  .column2,  .column3,  .column4
+{
+	width: 280px;
+}
+
+.column1,  .column2
+{
+	float: left;
+	margin-right: 1px;
+	margin-left: 35px;
+}
+
+.column2,.column3
+{
+	float: left;
+	margin: left 1px; ;
+}
+
+
+
+	#header-featured
+	{
+		height: 30em;
+		background-image: url(6.jpg);
+		background-position: center;
+		background-size: contain;
+	}
+
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+
+#footer-wrapper
+{
+	overflow: hidden;
+	padding: 6em 0em;
+	background: #e90e0e;
+	text-align: center;
+}
+
+#footer
+{
+	overflow: hidden;
+}
+
+
+#footer .title h2
+{
+	font-size: 2000em;
+	font-weight: 300;
+	color: #FFF;
+}
+
+#footer .title .byline
+{
+	
+	padding-top: 1em;
+	text-transform: uppercase;
+	font-size: 5em;
+	color: rgba(255,255,255,0.5);
+}
+
+#footer .button
+{
+	margin-top: 2em;
+}
+
+#extra
+{
+	overflow: hidden;
+	margin: 1cm auto 0em auto;
+	padding: 1em 0em 5em 0em;
+	text-align: center;
+}
+
+#extra h2
+{
+	margin: 0em;
+	padding: 0em;
+	font-weight: 800;
+	font-size: 2.4em;
+	color: black;
+}
+
+#extra span
+{
+	display: block;
+	padding-top: 0.20em;
+	margin-bottom: 3em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: black;
+}
+
+
+#extra .button
+{
+	margin-top: 2em;
+}
+
+#extra2
+{
+	overflow: hidden;
+	padding-bottom: 5em;
+}
+
+#extra2 .button
+{
+	margin-top: 2em;
+}
+
+#extra2 .title h2
+{
+	font-size: 2em;
+}
+
+#extra2 .title .byline
+{
+	font-size: 0.80em;
+}
+
+#extra2 #ebox1,
+#extra2 #ebox2
+{
+	width: 560px;
+}
+
+#extra2  #ebox1
+{
+	float: left;
+}
+
+#extra2 #ebox2
+{
+	float: right;
+}
+
+.btn{
+    width: 70px;
+    height: 40px;
+    background:solid #0b9e79; ;
+    border: 2px solid #0b9e79;
+    margin-top: -0.5em;
+    color: rgb(15, 14, 14);
+    font-size: 18px;
+    
+    border-bottom-right-radius: 25px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color:black;
+}
+
+
+
+
+.iconDetails {
+   margin-left:2%;
+   float:left; 
+   height:100%;
+   width: 50%; 
+   } 
+   
+   .container2 {
+	   width:100%;
+	   
+	   height:auto;
+	   padding:0px;
+   }
+/* Style all font awesome icons */
+.fa {
+	padding: 20px;
+	font-size: 60px;
+	width: 10px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+	background: #202d4b;
+	color: white;
+  }
+  .fa-instagram {
+	background:  #3B5998;
+	color: white;
+  }   
+
+  .fa-google {
+	background:  #3B5998;
+	color: white;
+  }   
+
+  .fa-linkedin{
+	background:  #3B5998;
+	color: white;
+  } 
+  .fa-youtube {
+	background:  #cf0b0b;
+	color: white;
+  }     
+
+  #menu ul li:hover{ background-color: #000;}
+  #menu ul li:hover a{ color: #fff; }
+  #menu ul li.active{ background-color: #000; }
+  #menu ul li.active a{ color: #fff; }
+  .btn-danger {
+    color: #fff; 
+    background-color: #0b9e79;;
+    border-color: #0b9e79;; 
+}
+.col2{
+	padding-left: 55%;
+}
+.col1{
+	padding-right:80% ;
+	padding-top: 80px;
+}
+.heading{
+	padding-left:-10px;
+	padding-top: 5px;
+}
